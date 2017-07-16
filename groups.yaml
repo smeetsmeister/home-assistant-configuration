@@ -1,0 +1,31 @@
+device_tracker:
+  name: Who's home?
+  entities:
+  - device_tracker.1c9148040f28
+  - device_tracker.8c34fdf53708
+  view: false
+buien_radar:
+  name: Weather
+  entities:
+  - sensor.br_precipitation
+  - sensor.br_symbol
+  - sensor.br_wind_speed
+  - sensor.br_temperature
+  - sensor.br_humidity
+  - sensor.br_precipitation_forecast_average
+  - sensor.yr_symbol
+speedtest:
+  name: Internet speed
+  entities:
+  - sensor.speedtest_download
+  - sensor.speedtest_ping
+  - sensor.speedtest_upload
+  view: false
+devices:
+  entities:
+  - device_tracker.0019c5bf0bc8
+  - device_tracker.5820b1613313
+  - device_tracker.a8c83abe32b0
+  - device_tracker.e0319e0ea06c
+  name: Devices Online
+  view: false
