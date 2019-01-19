@@ -23,7 +23,7 @@ config:
 
 http:
   # Uncomment this to add a password (recommended!)
-#   api_password: !secret apiPassword
+   api_password: !secret apiPassword
   # Uncomment this if you are using SSL or running in Docker etc
 #   base_url: !secret baseUrl
 
