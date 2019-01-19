@@ -1,8 +1,7 @@
 device_tracker:
-  name: Who's home?
+  name: Who is home?
   entities:
-  - device_tracker.1c9148040f28
-  - device_tracker.8c34fdf53708
+  - device_tracker.iPhone_jelle
   view: false
 buien_radar:
   name: Weather
@@ -23,9 +22,6 @@ speedtest:
   view: false
 devices:
   entities:
-  - device_tracker.0019c5bf0bc8
-  - device_tracker.5820b1613313
-  - device_tracker.a8c83abe32b0
-  - device_tracker.e0319e0ea06c
+  - device_tracker.desktop
   name: Devices Online
   view: false

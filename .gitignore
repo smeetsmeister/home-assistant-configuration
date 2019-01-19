@@ -7,3 +7,4 @@ home-assistant_v2.db
 .uuid
 deps/
 www/
+.storage/
