@@ -2,6 +2,7 @@ device_tracker:
   name: Who is home?
   entities:
   - device_tracker.iPhone_jelle
+  - device_tracker.iPhone_dina
   view: false
 buien_radar:
   name: Weather
@@ -22,6 +23,11 @@ speedtest:
   view: false
 devices:
   entities:
+  - device_tracker.eTwist
   - device_tracker.desktop
+  - device_tracker.tv_livingroom
+  - device_tracker.elitebook_Jelle
+  - device_tracker.ps4
+  - device_tracker.Devolo
   name: Devices Online
   view: false
