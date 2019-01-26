@@ -80,5 +80,7 @@ device_tracker:
  platform: nmap_tracker
  hosts: !secret ipRange
  home_interval: 10
+ new_device_defaults:
+  hide_if_away: true
  exclude:
   - !secret ownIp
